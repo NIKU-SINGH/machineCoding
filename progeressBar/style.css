@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.progressBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(153, 255, 240);
+    padding:20px;
+    border-radius: 20px;
+    width:1000px;
+}
+.progressBar{
+    position: relative;
+    background-color: rgb(255, 81, 81);
+    border-radius: 10px;
+    padding: 10px;
+}
+.progress {
+    width: 0; 
+    background-color: blue;
+    height: 20px;
+}

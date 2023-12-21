@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(106, 255, 138);
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.inputBox {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.inputBox > input {
+    padding: 10px;
+    border:0;
+    background-color: transparent;
+    outline: none;  
+}
+
+.todoItemList {
+    padding: 0;
+}
+.todoItemList > li {
+    list-style: none;
+}
+
+.listItems {
+    background-color: rgb(255, 109, 170);
+    padding: 10px;
+    margin:5px;
+    border-radius: 10px;
+}
