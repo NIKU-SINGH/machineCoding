@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 
+We want you to build an input box which allows users to create a search easily and quickly.
+
+Requirements:
+
+- Create a well designed input box where user can type their search.
+- Display suggestions user can pick from a displayed drop down. Suggestions should be fetched and displayed while typing and also when the user focuses on the input box. The suggestions should hide on click out.
+- This fiddle contains a mock server API to generate suggestions.
+- getSuggestions API returns a promise which can get resolved or rejected at any time ranging from 0 - 200 ms.
+- All space delimited words other than the last can be considered to be already tokenized and should not be sent to the get suggestions server API.
+- Selecting suggestion should update the input text with the suggestion, and automatically add a space at the end to allow quick typing.
+-->
+    <div id="app">
+      <div class="searchBarContainer">
+        <input class="searchFeild" type="text" placeholder="enter the search" />
+      </div>
+      <div class="searchResultContainer"><ul id="list"></ul></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

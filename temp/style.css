@@ -1,0 +1,28 @@
+.datepicker {
+    position: relative;
+    width: 200px;
+  }
+  
+  #datepicker-input {
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .datepicker-calendar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .datepicker-calendar.visible {
+    display: block;
+  }
+  
+  /* Customize the calendar appearance as needed */
+  /* ... */
+  
